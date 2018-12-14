@@ -4,6 +4,8 @@
 # Perform steps 1, 2, 3, 4 on the Master node.
 # Perform step 5 on the Worker node.
 
+# Detailed instructions in "k-1-12-1-kubeadm-join-fix" file.
+
 STEP 1: Create a new "kubelet-config-1.12" ConfigMap from existing "kubelet-config-1.13" ConfigMap
 
 STEP 2: Get token prefix
