@@ -1,8 +1,8 @@
-k8s-1.12.1
-Kubernetes v. 1.12.1 - fix for kubeadm join configmap get permission error
+# k8s-1.12.1
+# Kubernetes v. 1.12.1 - fix for kubeadm join configmap get permission error
 
-Perform steps 1, 2, 3, 4 on the Master node.
-Perform step 5 on the Worker node.
+# Perform steps 1, 2, 3, 4 on the Master node.
+# Perform step 5 on the Worker node.
 
 STEP 1: Create a new "kubelet-config-1.12" ConfigMap from existing "kubelet-config-1.13" ConfigMap
 
