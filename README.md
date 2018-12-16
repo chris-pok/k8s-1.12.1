@@ -1,4 +1,5 @@
 <b> k8s-1.12.1 </b>
+
 <b> Kubernetes v. 1.12.1 - fix for kubeadm join configmap get permission error </b>
 
 <b> Perform STEPS 1, 2, 3, 4 on the Master node. </b>
@@ -49,4 +50,3 @@
     $ sudo kubeadm join --token <token> <master-IP>:6443 --discovery-token-ca-cert-hash sha256:<key-value> 
     # If you receive 2 ERRORS, run kubeadm join again with the following options:
     $ sudo kubeadm join --token <token> <master-IP>:6443 --discovery-token-ca-cert-hash sha256:<key-value> --ignore-preflight-errors=FileAvailable--etc-kubernetes-bootstrap-kubelet.conf,FileAvailable--etc-kubernetes-pki-ca.crt
-  
