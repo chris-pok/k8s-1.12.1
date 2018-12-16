@@ -8,7 +8,7 @@ $ kubectl -n kube-system create -f kubelet-config-1.12-cm.yaml
 
 
 # STEP 2: Get token prefix
-$ sudo kubeadm token list			#if no output, then create a token:
+$ sudo kubeadm token list	#if no output, then create a token:
 $ sudo kubeadm token create
 TOKEN				...		...
 a0b1c2.svn4my9ifft4zxgg	...		...
