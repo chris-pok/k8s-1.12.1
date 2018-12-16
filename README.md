@@ -2,7 +2,7 @@
 
 <b> Kubernetes v. 1.12.1 - fix for kubeadm join configmap get permission issue </b>
 
-If you are seeing this message when attempting to join a Kubernetes 1.12 cluster from a worker node with "kubeadm join": then the following fixes the issue:
+If you are seeing this message when attempting to join a Kubernetes 1.12 cluster from a worker node with "kubeadm join":
 
     [kubelet] Downloading configuration for the kubelet from the "kubelet-config-1.12" ConfigMap in the kube-system namespace
     configmaps "kubelet-config-1.12" is forbidden: User "system:bootstrap:a0b1c2" cannot get configmaps in the namespace "kube-system"
