@@ -1,6 +1,6 @@
-<b> k8s-1.12.1 </b>
+# k8s-1.12.1
 
-<b> Kubernetes v. 1.12.1 - fix for kubeadm join configmap get permission issue </b>
+# Kubernetes v. 1.12.1 - fix for kubeadm join configmap get permission issue
 
 If you are seeing this message when attempting to join a Kubernetes 1.12 cluster from a worker node with "kubeadm join":
 
