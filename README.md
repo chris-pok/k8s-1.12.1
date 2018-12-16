@@ -1,4 +1,4 @@
-# k8s-1.12.1
+<b> k8s-1.12.1 </b>
 # Kubernetes v. 1.12.1 - fix for kubeadm join configmap get permission error
 
 # Perform steps 1, 2, 3, 4 on the Master node.
