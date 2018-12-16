@@ -1,17 +1,15 @@
 <b> k8s-1.12.1 </b>
-# Kubernetes v. 1.12.1 - fix for kubeadm join configmap get permission error
+<b> Kubernetes v. 1.12.1 - fix for kubeadm join configmap get permission error </b>
 
-# Perform steps 1, 2, 3, 4 on the Master node.
-# Perform step 5 on the Worker node.
+<b> Perform STEPS 1, 2, 3, 4 on the Master node. </b>
+<b> Perform STEP 5 on the Worker node. </b>
 
-# Detailed instructions in "k-1-12-1-kubeadm-join-fix" file.
+<b> STEP 1: Create a new "kubelet-config-1.12" ConfigMap from existing "kubelet-config-1.13" ConfigMap: </b>
 
-STEP 1: Create a new "kubelet-config-1.12" ConfigMap from existing "kubelet-config-1.13" ConfigMap
+<b> STEP 2: Get token prefix: </b>
 
-STEP 2: Get token prefix
+<b> STEP 3: Create a new "kubeadm:kubelet-config-1.12" role from existing "kubeadm:kubelet-config-1.13" role: </b>
 
-STEP 3: Create a new "kubeadm:kubelet-config-1.12" role from existing "kubeadm:kubelet-config-1.13" role
+<b> STEP 4: Create a new rolebinding "kubeadm:kubelet-config-1.12" from existing "kubeadm:kubelet-config-1.13" rolebinding: </b>
 
-STEP 4: Create a new rolebinding "kubeadm:kubelet-config-1.12" from existing "kubeadm:kubelet-config-1.13" rolebinding
-
-STEP 5: Run kubeadm join from Worker node
+<b> STEP 5: Run kubeadm join from Worker node: </b>
